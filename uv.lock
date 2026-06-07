@@ -1703,7 +1703,11 @@ dependencies = [
     { name = "google-genai" },
     { name = "joblib" },
     { name = "jupyter" },
+    { name = "jupyter-core" },
     { name = "matplotlib" },
+    { name = "more-itertools" },
+    { name = "nbconvert" },
+    { name = "notebook" },
     { name = "numpy" },
     { name = "pandas" },
     { name = "pgvector" },
@@ -1724,7 +1728,11 @@ requires-dist = [
     { name = "google-genai", specifier = ">=1.8.0" },
     { name = "joblib", specifier = ">=1.4.2" },
     { name = "jupyter", specifier = ">=1.1.1" },
+    { name = "jupyter-core", specifier = ">=5.9.1" },
     { name = "matplotlib", specifier = ">=3.10.1" },
+    { name = "more-itertools", specifier = ">=11.1.0" },
+    { name = "nbconvert", specifier = ">=7.16.6" },
+    { name = "notebook", specifier = ">=7.4.7" },
     { name = "numpy", specifier = ">=2.2.4" },
     { name = "pandas", specifier = ">=2.2.3" },
     { name = "pgvector", specifier = ">=0.4.0" },
@@ -1737,6 +1745,15 @@ requires-dist = [
     { name = "sqlalchemy", specifier = ">=2.0.40" },
     { name = "torch", specifier = ">=2.6.0" },
     { name = "tqdm", specifier = ">=4.67.1" },
+]
+
+[[package]]
+name = "more-itertools"
+version = "11.1.0"
+source = { registry = "https://pypi.org/simple" }
+sdist = { url = "https://files.pythonhosted.org/packages/de/1d/f4da6f02cdffe04d6362210b807146a26044c88d839208aec273bb0d9184/more_itertools-11.1.0.tar.gz", hash = "sha256:48e8f4d9e7e5878571ecf6f2b4e57634f93cd474cc8cfbd2376f2d11b396e30d", size = 145772, upload-time = "2026-05-22T14:14:29.909Z" }
+wheels = [
+    { url = "https://files.pythonhosted.org/packages/e8/3d/1087453384dbde46a8c7f9356eead2c58be8a7bf156bca40243377c85715/more_itertools-11.1.0-py3-none-any.whl", hash = "sha256:4b65538ae22f6fed0ce4874efd317463a7489796a0939fa66824dd542125a192", size = 72226, upload-time = "2026-05-22T14:14:28.824Z" },
 ]
 
 [[package]]
